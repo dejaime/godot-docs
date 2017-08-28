@@ -66,13 +66,13 @@ Distro-specific oneliners
 | **openSUSE**  | ::                                                                                                         |
 |               |                                                                                                            |
 |               |     sudo zypper install scons pkgconfig libX11-devel libXcursor-devel libXrandr-devel libXinerama-devel \  |
-|               |             Mesa-libGL-devel alsa-devel libpulse-devel freetype-devel openssl-devel libudev-devel \        |
-|               |             libGLU1                                                                                        | 
+|               |         Mesa-libGL-devel alsa-devel libpulse-devel freetype-devel openssl-devel libudev-devel \            |
+|               |         libGLU1                                                                                            | 
 +---------------+------------------------------------------------------------------------------------------------------------+
 | **Solus**     | ::                                                                                                         |
 |               |                                                                                                            |
-|               |     sudo eopkg install scons libxcursor-devel libxinerama-devel libxrandr-devel mesalib libglu alsa-lib \  |
-|               |             pulseaudio freetype2-devel                                                                     |                                  
+|               |     sudo eopkg install -c system.devel scons libxcursor-devel libxinerama-devel libxrandr-devel mesalib \  |
+|               |         libglu alsa-lib pulseaudio freetype2-devel                                                         |                                  
 +---------------+------------------------------------------------------------------------------------------------------------+
 | **Ubuntu**    | ::                                                                                                         |
 |               |                                                                                                            |
